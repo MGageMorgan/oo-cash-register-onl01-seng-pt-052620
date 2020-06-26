@@ -5,8 +5,10 @@ class CashRegister
     @total = 0
   end
 
-  def add_item(title, price, quantity=0)
+  def add_item(title, price, quantity=nil)
     @title = title
+    @total += @total + price
+    @quantity = quantity
     if quantity >= 1
       @total = @total + (price * quantity)
     end
