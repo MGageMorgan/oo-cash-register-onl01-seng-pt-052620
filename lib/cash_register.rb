@@ -6,6 +6,6 @@ class CashRegister
   end
 
   def total=
-    self.total
+    puts @total
   end
 end
