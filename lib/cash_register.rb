@@ -9,8 +9,7 @@ class CashRegister
     @title = title
     @total += @total + price
     @quantity = quantity
-    if quantity >= 1
-      @total = @total + (price * quantity)
+    @total = @total + (price * quantity)
     end
   end
 end
