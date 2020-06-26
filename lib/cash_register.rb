@@ -10,5 +10,6 @@ class CashRegister
     @total += @total + price
     if quantity > 1
       @total = @total + (price * quantity)
+    end
   end
 end
