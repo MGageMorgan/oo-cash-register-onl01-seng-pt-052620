@@ -10,6 +10,5 @@ class CashRegister
     @total += @total + price
     @quantity = quantity
     @total = @total + (price * quantity)
-    end
   end
 end
