@@ -5,7 +5,7 @@ class CashRegister
     @total = 0
   end
 
-  def total=
-    puts @total
+  def total=(total)
+    puts total
   end
 end
